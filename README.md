@@ -147,7 +147,7 @@ pipeline {
 
 ![image](https://github.com/user-attachments/assets/f237f831-980f-4f0e-aeb1-083517297343)
 
- * Generate Pipeline stage for executing the ansible playbook: 
+ * Generate Pipeline for executing the ansible playbook: 
 
 ![image](https://github.com/user-attachments/assets/271d63f0-5032-4223-a086-0f86cddc1b81)
 
