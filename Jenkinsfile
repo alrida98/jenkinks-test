@@ -8,7 +8,7 @@ pipeline {
       }  
       stage('Execute Ansible') {
         steps {
-           ansiblePlaybook credentialsId: 'ubuntu-slaves-key', disableHostKeyChecking: true, installation: 'ansible-copsc', inventory: 'hosts', playbook: 'web-app.yml'
+           ansiblePlaybook credentialsId: 'ubuntu-slaves-key', disableHostKeyChecking: true, installation: 'ansible', inventory: 'hosts', playbook: 'web-app.yml'
         }  
       }
     }
